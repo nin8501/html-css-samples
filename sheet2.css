@@ -1,0 +1,39 @@
+/* this style sheet is for the productsoffered.html page*/
+body{
+    background-color:lightskyblue;
+}
+table,td,th{
+    border: 2px solid black ;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+th{
+    background-color:plum;
+}
+tr:hover{
+    background-color: palegoldenrod;
+}
+@keyframes a1 {
+    from{
+        color:lightskyblue;
+        font-family: 'Times New Roman', Times, serif 1s;
+        font-size: small;
+        border-style: none;
+        border-color:none ;
+
+    }
+    to{
+        color:black;
+        font-family:cursive 3s;
+        font-size:xx-large;
+        border-style:dotted;
+        border-color: blue;
+    }
+}
+h1{
+    animation-name: a1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
